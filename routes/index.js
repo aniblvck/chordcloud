@@ -21,5 +21,10 @@ router.get('/login', function(req, res, next) {
 });
 
 
+router.get('/create', function(req, res, next) {
+  res.render('createalbum');
+});
+
+
 
 module.exports = router;
